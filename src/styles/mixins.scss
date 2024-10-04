@@ -1,0 +1,18 @@
+@mixin typography($font-size: var(--default-font-size)) {
+    font-size: $font-size;
+    font-weight: normal;
+    font-family: "inter", "robotoregular", sans-serif;
+}
+
+@mixin borders($border-radius: var(--default-border-radius)) {
+    border-radius: $border-radius;
+    -webkit-border-radius: $border-radius;
+}
+
+@mixin focusable() {
+    outline: none;
+}
+
+@mixin shadowed() {
+    box-shadow: 0 1px 4px 0 rgba(0, 31, 51, 0.1);
+}

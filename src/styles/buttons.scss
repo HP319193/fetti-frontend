@@ -1,0 +1,48 @@
+.btn-base {
+    @include borders;
+    @include typography;
+    @include focusable;
+
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+
+    &.ant-btn-default {
+        background: white;
+    }
+
+    &.ant-btn-primary:not(.ant-btn-dangerous.ant-btn-primary):not(.ant-btn-background-ghost):not(:disabled) {
+        background: #e8107c;
+        border-color: #e8107c;
+        color: white;
+        height: auto;
+
+        span {
+            color: white;
+        }
+
+        &:hover,
+        &:focus,
+        &:active {
+            background: #e8107c;
+            border-color: #e8107c;
+            color: white;
+
+            --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1) !important;
+            --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color) !important;
+            box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+        }
+    }
+
+    .anticon {
+        display: inline-grid;
+    }
+}
+
+.btn {
+    @include shadowed;
+}
+
+.ant-btn {
+    @extend .btn-base;
+}

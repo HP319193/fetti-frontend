@@ -1,0 +1,30 @@
+.RectangleCard {
+    background: white;
+    border-radius: 24px;
+    padding: 2rem 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.RetryButton {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 0; 
+    text-align: center;
+    color: #2F2F2F;
+    background-color: white;
+    box-shadow: 0px 4px 15px 0px #0000001C;
+    align-self: flex-end;
+    font-size: 14px;
+}
+
+.RetryButton:hover {
+    color: #10aee5;
+    cursor: pointer;
+    box-shadow: 0px 4px 15px 0px #3c3c3c1c;
+}
+

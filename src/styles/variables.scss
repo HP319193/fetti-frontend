@@ -1,0 +1,24 @@
+:root {
+    /* ==== Colors ==== */
+
+    --menu-link-color: #acacac;
+    --menu-link-active: #444444;
+    --light-torquise: #63cfcd;
+    --dark-mint: #337978;
+    --light-mint: #10aee5;
+    --light-mint-hovered: #0c8482;
+    --ultralight-mint: #d7f5f4;
+    --fetti-pink: #e8107c;
+
+    /* ==== Defaults ==== */
+
+    // borders
+    --default-border-radius: 2px;
+    --secondary-border-radius: 24px;
+    --default-border-color: #e8e8e8;
+    // typography
+    --default-font-weight: normal;
+    --default-font-size: 13px;
+    // backgrounds
+    --default-background-empty: #f9f9f9;
+}

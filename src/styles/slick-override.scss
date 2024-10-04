@@ -1,0 +1,19 @@
+.slick-next:before {
+  content: none;
+}
+
+.slick-prev:before {
+  content: none;
+}
+
+.slick-prev {
+  left: 0px;
+  top: 15px;
+  z-index: 99;
+}
+
+.slick-next {
+  right: 0px;
+  top: 15px;
+  z-index: 99;
+}

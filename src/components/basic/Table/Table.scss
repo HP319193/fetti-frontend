@@ -1,0 +1,66 @@
+.avatar {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background: gainsboro;
+    margin-right: 20px;
+}
+
+table > tr > th,
+table > tr > td,
+.ant-table-tbody > tr > td,
+.ant-table-thead > tr > th {
+    border: none;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 13px;
+
+    &:last-child {
+        border-left: none;
+        border-right: none;
+    }
+}
+
+.ant-picker-date-panel .ant-picker-content th {
+    padding: 0;
+}
+
+.ant-picker-date-panel .ant-picker-content {
+    width: 100%;
+}
+
+.ant-picker-content th,
+.ant-picker-content td {
+    text-align: center;
+    font-size: 13px;
+    border: none;
+
+    &:last-child {
+        border-left: none;
+        border-right: none;
+    }
+}
+
+.ant-pagination-item-active,
+.ant-pagination-item-active:hover {
+    border-color: var(--light-mint);
+}
+
+.ant-pagination-item-active a,
+.ant-pagination-item-active:hover a {
+    color: var(--light-mint);
+}
+
+.ant-avatar-icon {
+    align-items: center;
+    display: grid;
+}
+
+.ant-avatar.ant-avatar-icon > .anticon,
+.ant-avatar-icon .anticon {
+    vertical-align: middle;
+    margin: auto;
+}
+
+.ant-table-wrapper .ant-pagination.ant-table-pagination {
+    margin: 16px 0 0 0;
+}

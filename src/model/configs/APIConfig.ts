@@ -1,0 +1,3 @@
+interface APIConfig {
+    host?: string;
+}
